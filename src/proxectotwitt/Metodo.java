@@ -32,17 +32,19 @@ public class Metodo {
     /**
      * Ponemos nuestros datos para poder acceder a nuestra cuenta, codigos de twitter developers
      */
-      public static void acceso(){
-        
-        cb = new ConfigurationBuilder();
-        cb.setDebugEnabled(true);
-        cb.setOAuthConsumerKey("nipbbZAo4YYvZTiJ9eTqoweor");
-        cb.setOAuthConsumerSecret("bBPcuZLVDzrhvcRYkLHgoEAy7TGgzgJtrTtYn4zL2UowgVEyHn");
-        cb.setOAuthAccessToken("848794118230769664-eRC9ShFPcKgnOZh9U6hRQOSfHGISCyY");
-        cb.setOAuthAccessTokenSecret("or2LmVjEXELuaRtjJSPDH1CMlQCWIH4rbPfGGMRQ9nDho");
-        TwitterFactory tf = new TwitterFactory(cb.build());
-        twitter = tf.getInstance();
-    }
+//      public static void acceso(){
+//          
+//
+//        
+//        cb = new ConfigurationBuilder();
+//        cb.setDebugEnabled(true);
+//        cb.setOAuthConsumerKey("nipbbZAo4YYvZTiJ9eTqoweor");
+//        cb.setOAuthConsumerSecret("bBPcuZLVDzrhvcRYkLHgoEAy7TGgzgJtrTtYn4zL2UowgVEyHn");
+//        cb.setOAuthAccessToken("848794118230769664-eRC9ShFPcKgnOZh9U6hRQOSfHGISCyY");
+//        cb.setOAuthAccessTokenSecret("or2LmVjEXELuaRtjJSPDH1CMlQCWIH4rbPfGGMRQ9nDho");
+//        TwitterFactory tf = new TwitterFactory(cb.build());
+//        twitter = tf.getInstance();
+//    }
 /**
  * Con esto visualizaremos todos nuestros twitts publicados
  */
